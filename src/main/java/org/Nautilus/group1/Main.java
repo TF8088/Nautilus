@@ -1,14 +1,17 @@
 package org.Nautilus.group1;
 
-// import java.time.LocalDate;
+import org.Nautilus.group1.Class.barcopatrulha;
+import org.Nautilus.group1.Class.lanchasrapidas;
+import org.Nautilus.group1.Class.marinheiro;
+import org.Nautilus.group1.Class.motor;
+import org.Nautilus.group1.Enums.combustivel;
+import org.Nautilus.group1.Enums.patentes;
+import org.Nautilus.group1.Enums.zonas;
+
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
 
-       /* marinheiro marinheiro = new marinheiro("Tiago", 1979-01-34, patentes.OFICIAL);
-        System.out.println(marinheiro.getId());
-        System.out.println(marinheiro.getNome());
-        System.out.println(marinheiro.getDataNascimento());
-        System.out.println(marinheiro.getPatente());*/
     }
 }
