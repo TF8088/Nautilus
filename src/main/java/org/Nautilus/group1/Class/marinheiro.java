@@ -74,6 +74,10 @@ public class marinheiro implements Comparable<marinheiro> {
         return Period.between(dataNascimento, hoje).getYears(); // Calcula a diferença entre as datas
     }
 
+    public String toString()    {
+        return "Marinheiro: " + nome + " - " + dataNascimento + " - " + patente;
+    }
+
     @Override
     public int compareTo(marinheiro arg0) {
         return Integer.compare(this.id, arg0.id); // Ordena por ID
