@@ -40,5 +40,9 @@ public class motor {
     public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
+
+    public String toString() {
+        return "Motor [tipoCombustivel=" + tipoCombustivel + ", cilindrada=" + cilindrada + ", potencia=" + potencia + "]";
+    }
 }
 
